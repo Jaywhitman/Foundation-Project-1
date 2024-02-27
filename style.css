@@ -1,24 +1,140 @@
+/* Technical Skills Survey Project part 1: Exercise 2.1 */
 body{
-    background-color: rgb(63, 20, 218);
+    background-color: rgb(83, 79, 90);
 }
 h1{
     color:gold;
+    font-size: x-large;
+    text-align: justify;
+    text-shadow: 5px, 10px,5px rgb(15, 12, 12) ;
 }
 h2{
     color: yellow;
+    font-size: large;
+    text-align: left;
 }
 h3{
     color: yellowgreen;
+    font-size: medium;
+    text-align: left;
 }
 h4{
     color:greenyellow;
+    font-size: small;
+    text-align: left;
 }
 h5{
     color: goldenrod;
+    font-size: small;
+    text-align: left;
 }
 h6{
     color:darkgoldenrod;
+    font-size: smaller;
+    text-align: left;
 }
 p{
     color:white;
+    font-family: 'Times New Roman', Times, serif;
+}
+a {
+    text-decoration: none;
+    image-orientation: center;
+}
+/*showed usage of text-transform*/
+#Highlight{
+    text-align: center;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+th{
+    text-align: center;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+td{
+    text-align: left;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+li{
+    color:whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+/* created to separate the different time frame of work history */
+.heading2{
+font-family: 'Courier New', Courier, monospace;
+}
+.heading3{
+font-family: 'Times New Roman', Times, serif;
+}
+.heading4{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.heading5{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*following sections is for the table settings  */
+.inputbox{
+    position: relative;
+    width: 150px;
+}
+.inputbox input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 6px;
+    outline: none;
+    font-size: 1em;
+    color: black;
+.inputbox span{
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 1em;
+    color: black;
+    text-transform: uppercase;
+}
+.inputbox input:valid ~ span,
+.inputbox input:focus ~ span
+{
+    color:black;
+    transform: translateX(11px) translateY(-8px);
+    font-size: 0.55em;
+    padding: 0 10px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    letter-spacing: 0.2em;
+}
+.inputbox:nth-child(2) input:valid ~ span,
+.inputbox:nth-child(2) input:focus ~ span
+
+.inputbox input:valid,
+.inputbox input:focus
+{
+    border: 1px solid black;
+}
+
+}
+rad1 (hover)
+{
+    ;
+}
+rad2 (hover)
+{
+
+}
+rad3 (hover)
+{
+
+}
+submit (hover)
+{
+
 }
