@@ -12,7 +12,10 @@ h1{
     text-align: justify;
     text-shadow: 5px, 10px,5px rgb(15, 12, 12);
     margin-bottom: 0%;
-    border-box: 
+    box-sizing: border-box; 
+    display:flex;
+    justify-content: center;
+    align-content: center;
 }
 h2{
     box-sizing: content-box;
@@ -62,14 +65,17 @@ p{
     font-family: 'Times New Roman', Times, serif;
 }
 img {
-    width: 40%;
-    height: 400px;
+    width: 10%;
+    height: 100px;
     text-decoration: none;
     image-orientation: center;
     border-style:ridge;
     border-width: 50px;
     border-color: white black;
     border-radius: 50% 50%;
+    position: relative;
+    top: 0.5%;
+    left: 1%;
 }
 /*showed usage of text-transform also comeback to this portion to center caption*/
 #TableFormat {
@@ -77,11 +83,8 @@ img {
     max-width: 100%;
     margin-bottom: 3%;
     padding: .1%;
-}
-caption {
-    /*Display: flex;*/
-    align-items: center;
-    justify-content: center;
+}   
+ #Highlight{
     text-align: center;
     font-size: larger;
     font-family: 'Times New Roman', Times, serif;
@@ -89,18 +92,24 @@ caption {
     font-weight: bolder;
     text-transform: capitalize;
     padding: .1%;
+    position:relative;
+    right:-40%;
 }
 th{
     
     text-align: center;
     font-size: larger;
     font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    right:-50%;
 }
 td{
     text-align: left;
     font-size: small;
     font-family: Arial, Helvetica, sans-serif;
     color: whitesmoke;
+    position: relative;
+    right:-50%;
 }
 li{
     color:whitesmoke;
@@ -192,6 +201,9 @@ outline: solid 10px black;
 outline-offset: 10px;
 }
 Form {
-    width: 90%;
+    width: 50%;
     margin:auto;
+    position: relative;
+    bottom:-10px;
+    right:-110px
 }
